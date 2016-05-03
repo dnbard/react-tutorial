@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://fb.me/react-15.0.2.js"></script>
+    <script src="https://fb.me/react-dom-15.0.2.js"></script>
+</head>
+
+<body>
+    <section id="react-app"></section>
+    <script>
+        var HelloMessage = React.createClass({
+            displayName: 'HelloMessage',
+
+            render: function render() {
+                return React.createElement('div', null, 'Hello, ', this.props.name);
+            }
+        });
+
+//        var HelloMessage = React.createClass({
+//            render: function() {
+//                return <div>Hello {this.props.name}</div>;
+//            }
+//        });
+
+        ReactDOM.render(React.createElement(HelloMessage, {
+            name: 'GlobalLogic'
+        }), document.querySelector('#react-app'));
+
+    </script>
+</body>
+
+</html>
