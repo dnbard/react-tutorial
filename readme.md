@@ -20,13 +20,13 @@
  - Properties and state
  - Property validation
  - Data-binding
- - Stateless component
- - Component testing
+ 
+6. Component testing
 
-6. Cross-component communication
+7. Cross-component communication
 
-7. Animation
+8. Animation
 
-8. React Router
+9. React Router
 
-9. Tips & Performance
+10. Tips & Performance
