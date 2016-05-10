@@ -10,22 +10,23 @@
  - Getting started with Webpack
  - Babel JSX + ES6 code transformation in real-life example
  - Inline styles
- 
-3. Component lifetime cycle
 
-4. Components
+3. Gulp + Mocha integration
+
+4. Component lifetime cycle
+
+5. Components
 
  - Properties and state
  - Property validation
  - Data-binding
  - Stateless component
  - Component testing
- 
-5. Cross-component communication
 
-6. Animation
+6. Cross-component communication
 
-7. React Router
+7. Animation
 
-8. Tips & Performance
- 
+8. React Router
+
+9. Tips & Performance
