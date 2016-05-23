@@ -25,6 +25,10 @@
 
 7. Cross-component communication
 
+ - Properties
+ - Events
+ - Handlers
+
 8. Animation
 
 9. React Router
@@ -32,3 +36,4 @@
 10. Tips
 
   - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+  - [DOM Differences](https://facebook.github.io/react/docs/dom-differences.html)
