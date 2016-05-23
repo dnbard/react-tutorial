@@ -29,4 +29,6 @@
 
 9. React Router
 
-10. Tips & Performance
+10. Tips
+
+  - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
