@@ -12,22 +12,19 @@ export default class Application extends Component {
     }
 
     onClick(){
-        let items = this.state.items;
+        let items = this.state.items/*.slice()*/;
 
         items.push({
             id: v4(),
-            name: v4()
+            name: v4().replace(/-/g, '')
         });
 
-        this.setState({
-            items: items
-        });
+        this.setState({ items: items });
+
     }
 
     clear(){
-        this.setState({
-            items: []
-        });
+        this.setState({ items: [] });
     }
 
     render(){
