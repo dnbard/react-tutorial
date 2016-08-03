@@ -1,9 +1,11 @@
-# Examples for React course in GlobalLogic Ukraine
+# React Overview (GlobalLogic Ukraine)
+
+![react-complexity](http://content.screencast.com/users/dnbard/folders/Jing/media/037762b9-771a-43c6-896b-623787ced4af/2016-08-03_1119.png)
 
 1. [Introduction to React](https://github.com/dnbard/react-tutorial/tree/master/1-introduction)  
 
  - Simple example
- - introduction to JSX
+ - Introduction to JSX
 
 2. [Getting Started](https://github.com/dnbard/react-tutorial/tree/master/2-getting-started)  
 
