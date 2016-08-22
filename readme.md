@@ -5,7 +5,7 @@
 1. [Introduction to React](https://github.com/dnbard/react-tutorial/tree/master/1-introduction)  
 
  - Simple example
- - Introduction to JSX
+ - [Introduction to JSX](https://github.com/dnbard/react-tutorial/blob/master/jsx.md)
 
 2. [Getting Started](https://github.com/dnbard/react-tutorial/tree/master/2-getting-started)  
 
