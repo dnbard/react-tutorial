@@ -11,6 +11,8 @@
 
  - Getting started with Webpack
  - Babel JSX + ES6 code transformation in real-life example
+ - [React Starter Kit](https://github.com/kriasoft/react-starter-kit)
+ - [Create React App](https://github.com/facebookincubator/create-react-app)
  - Inline styles
 
 3. [Gulp + Mocha integration](https://github.com/dnbard/react-tutorial/tree/master/3-gulp%2Bmocha)
