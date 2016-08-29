@@ -43,3 +43,12 @@
 
   - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
   - [DOM Differences](https://facebook.github.io/react/docs/dom-differences.html)
+
+
+## Installation
+
+Don't forget to `npm install` in every folder before running the examples.
+
+## How to run examples
+
+Usually it is enough to run `npm start` to run the example. First example doesn't use `npm` so just open `index.html` in this case.
