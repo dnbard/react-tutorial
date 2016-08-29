@@ -37,7 +37,9 @@
 
 9. [React Router](https://github.com/dnbard/react-tutorial/tree/master/9-react-router)
 
-10. Tips
+10. [Context](https://github.com/dnbard/react-tutorial/blob/master/10-context.md)
+
+11. Tips
 
   - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
   - [DOM Differences](https://facebook.github.io/react/docs/dom-differences.html)
