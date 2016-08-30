@@ -26,6 +26,8 @@
  - Data-binding
  
 6. [Component testing](https://github.com/dnbard/react-tutorial/tree/master/6-component-testing)
+ 
+ - [Examples](https://github.com/dnbard/react-tutorial/blob/master/6-component-testing/examples.md)
 
 7. [Cross-component communication](https://github.com/dnbard/react-tutorial/tree/master/7-cross-component-communication)
 
