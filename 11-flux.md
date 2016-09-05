@@ -19,6 +19,8 @@ The main problem is **the bidirectional communication**, where one change can lo
 
 ## Flux
 
+![flux-logo](https://frontendmasters.com/assets/flux-workshop.png)
+
 How does **Flux** solve the problem of the bidirectional communication? By forcing **an unidirectional flow of data** between a system’s components. Flux is all about controlling the flow inside the app — and making it as simple to understand as possible.
 
 ![flux](https://facebook.github.io/flux/img/flux-simple-f8-diagram-with-client-action-1300w.png)
