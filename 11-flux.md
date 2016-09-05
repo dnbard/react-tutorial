@@ -27,7 +27,7 @@ Flux has four roles: **actions, stores, the dispatcher and views**. Their respon
 
 * **Actions** are simple objects with a type property and some data.
 
-```json
+```js
 {
   “type”: “IncreaseCount”,
   “local_data”:{
