@@ -239,3 +239,33 @@ ReactDOM.render(
     </Provider>, document.getElementById('app')
 );
 ```
+
+## Async `actions`
+
+```js
+export function usersLoaded(users){
+    return {
+        type: 'users-loaded',
+        users: users
+    }
+}
+
+export function usersNotLoaded(error){
+    return {
+        type: 'users-loaded',
+        users: null,
+        error: error
+    }
+}
+
+export function loadDetailsAsync(){
+    return (dispatch) => {
+        return fetch('https://api.example.com/users')
+            .then(users => {
+                dispatch(usersLoaded(users));
+            }).catch(error => {
+                dispatch(usersNotLoaded(error));
+            });
+    }
+}
+```
