@@ -1,5 +1,7 @@
 # Redux
 
+![redux-logo](https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png)
+
 ## Instalation
 
 ```sh
