@@ -2,6 +2,8 @@
 
 ![redux-logo](https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png)
 
+[Documentation](http://redux.js.org/)
+
 ## Instalation
 
 ```sh
@@ -139,4 +141,26 @@ import rootReducer from './reducers';
 Creating the `store` with a set of middlewares:
 ```js
 export default createStore(rootReducer, applyMiddleware(thunk, promise, loggerMiddleware));
+```
+
+## Dispatching first message
+
+Import all dependencies:
+```js
+import store from '../store';
+import { loggedIn } from '../actions/auth';
+```
+
+Creating a new `action`:
+```js
+const myFirstAction = loggedIn('my-auth-token', {
+    name: 'Alex',
+    role: 'admin',
+    id: 'id001'
+});
+```
+
+Dispatching an `action`:
+```js
+store.dispatch(myFirstAction);
 ```
