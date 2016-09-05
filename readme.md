@@ -45,6 +45,15 @@
 
 12. [Redux](https://github.com/dnbard/react-tutorial/blob/master/12-redux/readme.md)
 
+ - [Introduction](https://github.com/dnbard/react-tutorial/tree/master/12-redux#about)
+ - [Creating an action](https://github.com/dnbard/react-tutorial/tree/master/12-redux#creating-an-action)
+ - [Creating a reducer](https://github.com/dnbard/react-tutorial/tree/master/12-redux#creating-a-reducer)
+ - [Creating a root reducer](https://github.com/dnbard/react-tutorial/tree/master/12-redux#creating-a-root-reducer)
+ - [Creating a store](https://github.com/dnbard/react-tutorial/tree/master/12-redux#creating-a-store)
+ - [Dispatching first message](https://github.com/dnbard/react-tutorial/tree/master/12-redux#dispatching-first-message)
+ - [Link component to the store](https://github.com/dnbard/react-tutorial/tree/master/12-redux#link-component-to-the-store)
+ - [Async actions](https://github.com/dnbard/react-tutorial/tree/master/12-redux#async-actions)
+
 13. Tips
 
   - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
