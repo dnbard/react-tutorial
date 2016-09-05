@@ -43,7 +43,7 @@
 
 11. [Flux](https://github.com/dnbard/react-tutorial/blob/master/11-flux.md)
 
-12. Redux
+12. [Redux](https://github.com/dnbard/react-tutorial/blob/master/12-redux/readme.md)
 
 13. Tips
 
