@@ -41,7 +41,11 @@
 
 10. [Context](https://github.com/dnbard/react-tutorial/blob/master/10-context.md)
 
-11. Tips
+11. [Flux](https://github.com/dnbard/react-tutorial/blob/master/11-flux.md)
+
+12. Redux
+
+13. Tips
 
   - [Style Guide](https://github.com/airbnb/javascript/tree/master/react)
   - [DOM Differences](https://facebook.github.io/react/docs/dom-differences.html)
