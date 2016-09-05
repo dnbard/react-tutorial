@@ -4,6 +4,10 @@
 
 [Documentation](http://redux.js.org/)
 
+## About
+
+![redux](https://cdn.css-tricks.com/wp-content/uploads/2016/03/redux-article-3-03.svg)
+
 ## Instalation
 
 ```sh
@@ -163,4 +167,75 @@ const myFirstAction = loggedIn('my-auth-token', {
 Dispatching an `action`:
 ```js
 store.dispatch(myFirstAction);
+```
+
+## Link `component` to the `store`
+
+### Straightforward way
+
+```jsx
+export default class AuthViewComponent extend Component{
+    constructor(){
+        super();
+        
+        this.state = {};
+    }
+
+    getData(store){
+        const state = store.getState();
+        
+        this.setState({
+            isLogged: state.auth.isLogged,
+            name: state.auth.user.name
+        });
+    }
+    
+    componentWillMount(){
+        this.getData(store);
+        this._storeUnsubscribe = store.subscribe(this.getData);
+    }
+    
+    componentWillUnmount(){
+        this._storeUnsubscribe();
+    }
+    
+    render(){
+        return (<div>{this.state.isLoggedIn}</div>);
+    }
+}
+```
+
+### Using `react-redux`
+
+![react-redux-logo](http://medicalhistory.whiteprompt.com/da6d0a874cb9ab367d3143c10f1a2967.png)
+
+```jsx
+import { connect } from 'react-redux';
+
+function AuthViewComponent({ isLogged, name }){
+    return (<div>{this.state.isLoggedIn}</div>);
+}
+
+function mapStateToProps(store){
+    return {
+        isLogged: store.auth.isLogged,
+        name: store.auth.user.name
+    }
+}
+
+export default connect(mapStateToProps)(AuthViewComponent);
+```
+
+Whole application should be wrapped around with `Provider` to work with `react-redux`:
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import store from './store';
+
+ReactDOM.render(
+    <Provider store={store}>
+        <MyApplication />
+    </Provider>, document.getElementById('app')
+);
 ```
