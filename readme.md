@@ -53,6 +53,7 @@
  - [Dispatching first message](https://github.com/dnbard/react-tutorial/tree/master/12-redux#dispatching-first-message)
  - [Link component to the store](https://github.com/dnbard/react-tutorial/tree/master/12-redux#link-component-to-the-store)
  - [Async actions](https://github.com/dnbard/react-tutorial/tree/master/12-redux#async-actions)
+ - [Logger](https://github.com/dnbard/react-tutorial/tree/master/12-redux#logger)
 
 13. Tips
 

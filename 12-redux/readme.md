@@ -269,3 +269,8 @@ export function loadDetailsAsync(){
     }
 }
 ```
+
+## Logger
+
+[react-logger](https://github.com/evgenyrodionov/redux-logger) logger middleware are used in examples:
+![logger](https://github.com/dnbard/react-tutorial/blob/master/12-redux/images/logger.png)
