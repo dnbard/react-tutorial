@@ -61,6 +61,7 @@ gulp.task('default', [
 gulp.task('watch', function () {
     gulp.watch([
         './app/*',
-        './app/components/**/*.js'
+        './app/components/**/*.js',
+        './tests/**/*Spec.js'
     ], ['scripts:test']);
 });

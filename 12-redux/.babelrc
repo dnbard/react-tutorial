@@ -11,12 +11,5 @@
     "transform-class-properties",
     "transform-decorators-legacy",
     "transform-object-rest-spread"
-  ],
-  "env": {
-    "start": {
-      "presets": [
-        "react-hmre"
-      ]
-    }
-  }
+  ]
 }
