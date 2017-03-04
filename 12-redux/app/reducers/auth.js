@@ -1,20 +1,25 @@
 import { AUTH_FAILURE, AUTH_OK } from '../actions/auth';
+import actionHandling from './base';
+
 const initialState = {};
 
-export default function authReducer(state = initialState, action) {
-    if (action.type === AUTH_FAILURE){
-        return Object.assign({}, state, {
+const actionHandlers = {
+    [AUTH_FAILURE]: function(action){
+        return {
             isLogged: false,
             token: null,
             user: null
-        });
-    } else if (action.type === AUTH_OK){
-        return Object.assign({}, state, {
+        };
+    },
+    [AUTH_OK]: function(action){
+        return {
             isLogged: true,
             token: action.token,
             user: action.user
-        });
+        }
     }
+};
 
-    return state;
+export default function authReducer(state = initialState, action) {
+    return actionHandling(actionHandlers, action, state);
 }
