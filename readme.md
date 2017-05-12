@@ -63,8 +63,15 @@
 
 ## Installation
 
-Don't forget to `npm install` in every folder before running the examples.
+You should have `NodeJS` version >=4 & <6
+Don't forget to run `npm install` in every folder before running the examples.
 
 ## How to run examples
 
 Usually it is enough to run `npm start` to run the example. First example doesn't use `npm` so just open `index.html` in this case.
+
+## Additional console commands
+
+* `gulp` - default command to start development server with debug version of application; usually an alias to `npm start`
+* `gulp script:test` - run tests once
+* `gulp build` - build production version of application; an alias to `npm run build`
