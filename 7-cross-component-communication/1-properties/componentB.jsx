@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ComponentA extends Component{
+class ComponentB extends Component{
     render(){
         return (<div>
             {this.props.children}

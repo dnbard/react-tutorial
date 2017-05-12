@@ -19,5 +19,5 @@ export default class MyPropsComponent extends Component {
 
 
 /* More details about propTypes and validation:
- * https://facebook.github.io/react/docs/reusable-components.html
+ * https://facebook.github.io/react/docs/typechecking-with-proptypes.html
  */

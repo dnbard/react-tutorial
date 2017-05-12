@@ -14,6 +14,5 @@ render((
             <Route path="/users/:id" component={User} />
             <Route path="*" component={NoMatch} />
         </Route>
-
     </Router>
 ), document.getElementById('app'));

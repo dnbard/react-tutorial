@@ -4,9 +4,9 @@ import { mount, shallow } from 'enzyme';
 
 import Main from '../../app/components/main';
 
-describe('Main Component', () => {
+describe('<Main />', () => {
     it('should write greetings', () => {
-        const wrapper = shallow(<Main />);
+        const wrapper = shallow(<Main name="123" time="2243" />);
         expect(wrapper.text()).to.be.equal('Hello, World!');
     });
 
@@ -18,5 +18,11 @@ describe('Main Component', () => {
     it('should write greetings with #componentWillMount', () => {
         const wrapper = mount(<Main />);
         expect(wrapper.text()).to.be.equal('Hello, GlobalLogic!');
+    });
+
+    it('should catch validation errors', () => {
+        expect(() => {
+            shallow(<Main name="123" time="2243" />);
+        }).to.catch(/error/);
     });
 });

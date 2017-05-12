@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ComponentA extends Component{
+class ComponentB extends Component{
     onChange(e){
         if (typeof this.props.onChange === 'function' && !this.props.readOnly){
             this.props.onChange(e.target.value);
