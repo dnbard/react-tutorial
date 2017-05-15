@@ -10,7 +10,7 @@ function mapStateToProps(store){
     }
 }
 
-class Main extends Component {
+export class Main extends Component {
     onClick(e){
         store.dispatch(loggedIn('some-token', {
             name: this.refs.nameInput.value

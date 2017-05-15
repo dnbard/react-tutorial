@@ -192,7 +192,7 @@ export default class AuthViewComponent extend Component{
     
     componentWillMount(){
         this.getData(store);
-        this._storeUnsubscribe = store.subscribe(this.getData);
+        this._storeUnsubscribe = store.subscribe(this.getData.bind(this));
     }
     
     componentWillUnmount(){
@@ -213,7 +213,7 @@ export default class AuthViewComponent extend Component{
 import { connect } from 'react-redux';
 
 function AuthViewComponent({ isLogged, name }){
-    return (<div>{this.state.isLoggedIn}</div>);
+    return (<div>{isLoggedIn}</div>);
 }
 
 function mapStateToProps(store){
